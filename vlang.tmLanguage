@@ -459,7 +459,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>((?:@)(?:mut|var|pub|fn|unsafe|module|import|as|const|map|assert|sizeof|type|struct|interface|enum|in|is|or|match|if|else|for|go|goto|defer|return|i?(?:8|16|nt|64|128)|u?(?:16|32|64|128)|f?(?:32|64)|bool|byte|byteptr|charptr|voidptr|string|ustring|rune|none))</string>
+			<string>((?:@)(?:mut|var|pub|async|fn|unsafe|module|import|as|const|map|assert|sizeof|type|struct|interface|enum|in|is|or|match|if|else|for|go|goto|defer|return|i?(?:8|16|nt|64|128)|u?(?:16|32|64|128)|f?(?:32|64)|bool|byte|byteptr|charptr|voidptr|string|ustring|rune|none))</string>
 			<key>name</key>
 			<string>meta.escaped.keyword.v</string>
 		</dict>
@@ -616,7 +616,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(fn|type|enum|struct|interface|map|assert|sizeof)\b</string>
+					<string>\b(async|fn|type|enum|struct|interface|map|assert|sizeof)\b</string>
 					<key>name</key>
 					<string>keyword.$1.v</string>
 				</dict>
